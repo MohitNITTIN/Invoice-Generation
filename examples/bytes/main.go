@@ -3,8 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-
-	generator "github.com/angelodlfrtr/go-invoice-generator"
+	generator "github.com/MohitNITTIN/Invoice-Generation"
 )
 
 func main() {

@@ -1,6 +1,6 @@
-![golangci-lint](https://github.com/angelodlfrtr/go-invoice-generator/actions/workflows/golangci-lint.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/angelodlfrtr/go-invoice-generator)](https://goreportcard.com/report/github.com/angelodlfrtr/go-invoice-generator)
-[![GoDoc](https://godoc.org/github.com/angelodlfrtr/go-invoice-generator?status.svg)](https://godoc.org/github.com/angelodlfrtr/go-invoice-generator)
+![golangci-lint](https://github.com/MohitNITTIN/Invoice-Generation/actions/workflows/golangci-lint.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MohitNITTIN/Invoice-Generation)](https://goreportcard.com/report/ggithub.com/MohitNITTIN/Invoice-Generation)
+[![GoDoc](https://godoc.org/github.com/MohitNITTIN/Invoice-Generation?status.svg)](https://godoc.org/github.com/MohitNITTIN/Invoice-Generation)
 
 # Golang invoice generator
 
@@ -26,7 +26,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	generator "github.com/angelodlfrtr/go-invoice-generator"
+	generator "github.com/MohitNITTIN/Invoice-Generation"
 )
 
 func TestNew(t *testing.T) {
