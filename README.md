@@ -10,7 +10,7 @@ using https://github.com/go-pdf/fpdf.
 ## Download from Github
 
 ```
-go get -u github.com/angelodlfrtr/go-invoice-generator
+go get -u github.com/MohitNITTIN/Invoice-Generation
 ```
 
 ## Example output
