@@ -53,6 +53,10 @@ func (d *Document) SetCustomer(customer *Contact) *Document {
 	d.Customer = customer
 	return d
 }
+func (d *Document) SetSeller(seller *Contact) *Document {
+	d.Seller = seller
+	return d
+}
 
 // AppendItem to document items
 func (d *Document) AppendItem(item *Item) *Document {

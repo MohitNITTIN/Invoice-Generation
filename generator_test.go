@@ -80,6 +80,19 @@ func TestNew(t *testing.T) {
 		},
 	})
 
+	doc.SetSeller(&Contact{
+		Name: "Test Seller",
+		Address: &Address{
+			Address:    "89 Rue de Paris",
+			PostalCode: "29200",
+			City:       "Brest",
+			Country:    "France",
+		},
+		AddtionnalInfo: []string{
+			"Cupcake: ipsum dolor",
+			"Cupcake: ipsum dolo r",
+		},
+	})
 	for i := 0; i < 10; i++ {
 		doc.AppendItem(&Item{
 			Name:        "Cupcake ipsum dolor sit amet bonbon, coucou bonbon lala jojo, mama titi toto",

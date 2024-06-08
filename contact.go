@@ -122,3 +122,7 @@ func (c *Contact) appendCompanyContactToDoc(doc *Document) float64 {
 func (c *Contact) appendCustomerContactToDoc(doc *Document) float64 {
 	return c.appendContactTODoc(130, BaseMarginTop+25, true, "R", doc)
 }
+
+func (c *Contact) appendSellerContactToDoc(doc *Document) float64 {
+	return c.appendContactTODoc(130, BaseMarginTop+25, true, "R", doc)
+}

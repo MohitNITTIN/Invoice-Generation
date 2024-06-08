@@ -21,6 +21,7 @@ type Document struct {
 	Notes        string        `json:"notes,omitempty"`
 	Company      *Contact      `json:"company,omitempty" validate:"required"`
 	Customer     *Contact      `json:"customer,omitempty" validate:"required"`
+	Seller       *Contact      `json:"seller,omitempty" validate:"required"`
 	Items        []*Item       `json:"items,omitempty"`
 	Date         string        `json:"date,omitempty"`
 	ValidityDate string        `json:"validity_date,omitempty"`

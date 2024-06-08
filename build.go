@@ -62,6 +62,12 @@ func (doc *Document) Build() (*fpdf.Fpdf, error) {
 	} else {
 		doc.pdf.SetXY(10, companyBottom)
 	}
+	sellerBottom := doc.Seller.appendSellerContactToDoc(doc)
+	if sellerBottom > companyBottom {
+		doc.pdf.SetXY(10, sellerBottom)
+	} else {
+		doc.pdf.SetXY(10, companyBottom)
+	}
 
 	// Append description
 	doc.appendDescription()
